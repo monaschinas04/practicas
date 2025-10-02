@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="css/menu9.css">
+</head>
+<body>
+     <nav>
+
+      <button class= "nav-boton"  onclick="action()">menu</button>
+      <a href="#"class="nav-enlace desaparece">inicio</a>
+      <a href="#"class="nav-enlace desaparece">nosotroso</a>
+      <a href="#"class="nav-enlace desaparece">servicio</a>
+      <a href="#"class="nav-enlace desaparece">contacto</a>
+     </nav>
+<script>
+   function action(){
+   console.log("esta funcionando mi boton");
+   var liga=document.getElementsByClassName("nav-enlace");
+   for(var 1=0; i< length; i++){
+    liga[i].classList.toggle("desaparecer");
+   }
+}
+ </script>  
+</body>
+</html>
